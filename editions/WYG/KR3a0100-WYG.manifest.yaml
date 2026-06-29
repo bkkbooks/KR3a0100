@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR3a0100/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR3a0100/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 溫氏母訓
+  date: '2015-08-24 23:01:16.158070'
+  source:
+    repository: kanripo
+    path: KR3a0100
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3a0100_000-WYG.yaml, hash: 'sha256:334b1836cdbf0b20441377cf50fcd3fbea2f365a53efc2d8fdbfa2449d367979'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3a0100_000-WYG.markers.yaml, hash: 'sha256:1e2c8f1cfdf0e92109b7e93cb5289fde95f8de2462b0edbae5d88bf215a6ed25'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3a0100_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 361
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3a0100_WYG_000-3a
+    span:
+    - body
+    - 361
+    - 4039
+  label: 温氏母訓
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3a0100_WYG_000-17a
+    span:
+    - body
+    - 4039
+    - 4193
+  label: 跋
+  type: section
+  level: 1
+hash: sha256:6d28fb5c4a0b9be3f14066753d7da15e50c94b607b845389dac2898d740a35d0

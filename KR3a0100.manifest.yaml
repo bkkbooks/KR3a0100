@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR3a0100/v1
+canonical_location: https://kanripo.org/bkk/KR3a0100/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 溫氏母訓
+  date: '2015-08-24 23:01:16.158070'
+  source:
+    repository: kanripo
+    path: KR3a0100
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR3a0100_000.yaml, hash: 'sha256:6f4b8eb7231a29589441b569cff2a7f7be0f092b489db6042905ae8fbfd6b2a4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3a0100_000.markers.yaml, hash: 'sha256:a37bddf6f6370f067961a1441cc68ae67b6b432652efae9adfd36500b88bb53f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3a0100_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 361
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3a0100_WYG_000-3a
+    span:
+    - body
+    - 361
+    - 4039
+  label: 温氏母訓
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3a0100_WYG_000-17a
+    span:
+    - body
+    - 4039
+    - 4193
+  label: 跋
+  type: section
+  level: 1
+hash: sha256:7a605e277c0578cbbb092c694b7ede89fe85bbbb045bad13054f37fd8593f20d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
